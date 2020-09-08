@@ -1,0 +1,65 @@
+@font-face{
+    font-family: Audiowide;
+  src: url(Audiowide-Regular.ttf);
+}
+@font-face{
+    font-family: Asap-Regular;
+  src: url(Asap-Regular.ttf);
+}
+body{
+  background-image: url("./1.jpg");
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+h1 {
+    font-family: "Audiowide";
+    color: white;
+    font-size: 50px;
+    letter-spacing:3px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 55px;
+}
+.joystick{
+    float:left;
+    height: 85px;
+    width: 85px;
+    margin-left: -130px;
+    margin-top: -180px;
+}
+.login-box {
+    border: 1px solid rgba(23,218,218,0.18);
+    background-color: rgba(23,218,218,0.18);
+    height: 280px;
+    width: 500px;
+    margin-left: 540px;
+    margin-top: 60px;
+  }
+  input[type=button], input[type=button], input[type=reset]{
+    background-color: rgb(255, 15, 183);
+    letter-spacing: 1.6px;
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 195px;
+}
+
+.textbox {
+    font-family: Asap-Regular;
+    color: grey;
+    letter-spacing: 1.6px;
+    padding-right: 50px;
+    padding-top: -50px;
+    padding-bottom: 10px;
+    width:300px;
+    margin-left: 15px;
+    margin-top: 30px;
+    background: transparent;
+    border:none;
+    }
